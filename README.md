@@ -1,5 +1,7 @@
 # Geki Rating String SVG Generator
 
+[pngのダウンロードはこちら](https://github.com/slime-hatena/geki-rating-string-svg/releases/latest)
+
 このプロジェクトは、レーティング数値（例: "17.000"）を含む正方形のSVG画像を生成します。Discordの絵文字や類似のアプリケーションでの使用に適した形式です。
 
 数値を上段（整数部 "17"）と下段（小数部 ".000"）の2行に分割し、グラデーションを適用し、SVGをPNGに変換し、ZIPアーカイブにパッケージ化します。
