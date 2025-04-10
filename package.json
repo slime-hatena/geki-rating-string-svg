@@ -6,7 +6,7 @@
 		"generate": "node dist/cli/generate-svgs.js",
 		"convert": "node dist/cli/convert-png.js",
 		"zip": "node dist/cli/create-zip.js",
-		"all": "pnpm run clean && pnpm run compile && pnpm run generate && pnpm run convert && pnpm run zip"
+		"all": "pnpm run clean && pnpm run compile && pnpm run test && pnpm run generate && pnpm run convert && pnpm run zip"
 	},
 	"devDependencies": {
 		"@types/archiver": "^6.0.3",
