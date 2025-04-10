@@ -1,0 +1,28 @@
+{
+	"scripts": {
+		"test": "jest",
+		"clean": "rimraf dist",
+		"compile": "tsc",
+		"generate": "node dist/cli/generate-svgs.js",
+		"convert": "node dist/cli/convert-png.js",
+		"zip": "node dist/cli/create-zip.js",
+		"all": "pnpm run clean && pnpm run compile && pnpm run generate && pnpm run convert && pnpm run zip"
+	},
+	"devDependencies": {
+		"@types/archiver": "^6.0.3",
+		"@types/jest": "^29.5.14",
+		"@types/mkdirp": "^2.0.0",
+		"@types/node": "^22.14.0",
+		"@types/sharp": "^0.32.0",
+		"jest": "^29.7.0",
+		"ts-jest": "^29.3.1",
+		"ts-node": "^10.9.2",
+		"typescript": "^5.8.3"
+	},
+	"dependencies": {
+		"archiver": "^7.0.1",
+		"mkdirp": "^3.0.1",
+		"rimraf": "^6.0.1",
+		"sharp": "^0.34.1"
+	}
+}
