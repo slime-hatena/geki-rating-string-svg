@@ -20,8 +20,8 @@ export const UPPER_LETTER_SPACING = 4; // 文字間隔
 // 下段テキスト固有設定
 export const LOWER_TEXT_ANCHOR = 'end';
 export const LOWER_TEXT_X_PERCENT = '102%';
-export const LOWER_TEXT_Y = 134;
-export const LOWER_FONT_SIZE = 70;
+export const LOWER_TEXT_Y = 132;
+export const LOWER_FONT_SIZE = 68;
 export const LOWER_STROKE_WIDTH = 8;
 
 // ドット固有設定
